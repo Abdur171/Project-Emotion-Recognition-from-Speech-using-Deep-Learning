@@ -1,0 +1,21 @@
+{
+  "test_accuracy": 0.7321428571428571,
+  "test_f1": 0.7112249017929243,
+  "per_class_f1": {
+    "neutral": 0.5909090909090909,
+    "happy": 0.5714285714285714,
+    "sad": 0.8709677419354839,
+    "angry": 0.8115942028985508
+  },
+  "model_type": "enhanced_pretrained_torchaudio",
+  "improvements": [
+    "Class weighting for imbalance",
+    "Enhanced classifier architecture",
+    "Batch normalization",
+    "AdamW optimizer with weight decay",
+    "Cosine annealing scheduler",
+    "Gradient clipping",
+    "Early stopping",
+    "Weighted random sampling"
+  ]
+}
