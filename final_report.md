@@ -72,12 +72,7 @@ RECOMMENDATIONS FOR FUTURE WORK
 3. Add data augmentation specifically for emotional speech
 4. Try ensemble approaches combining both models
 5. Explore attention mechanisms for better temporal modeling
-
-
-# Just retrain the pretrained model with class weights
-python train_pretrained_final.py
-# But modify the loss function to:
-# criterion = nn.CrossEntropyLoss(weight=torch.tensor([2.0, 1.0, 1.0, 1.0]))
-
-
-END
+6- Just retrain the pretrained model with class weights
+   python train_pretrained_final.py
+   But modify the loss function to:
+   criterion = nn.CrossEntropyLoss(weight=torch.tensor([2.0, 1.0, 1.0, 1.0]))
